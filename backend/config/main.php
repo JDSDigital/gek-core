@@ -11,7 +11,14 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'gSystem' => [
+            'class' => 'backend\modules\gSystem\Module',
+        ],
+        'gUsers' => [
+            'class' => 'backend\modules\gUsers\Module',
+        ],
+    ],
     'components' => [
 //        'assetManager' => [
 //            'bundles' => [

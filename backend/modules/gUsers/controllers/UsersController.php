@@ -1,5 +1,5 @@
 <?php
-namespace backend\controllers;
+namespace backend\modules\gUsers\controllers;
 
 use Yii;
 use yii\data\ActiveDataProvider;
