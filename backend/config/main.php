@@ -20,21 +20,21 @@ return [
         ],
     ],
     'components' => [
-//        'assetManager' => [
-//            'bundles' => [
-//                'yii\bootstrap\BootstrapAsset'       => [
-//                    'sourcePath' => null,
-//                    'css'        => [],
-//                ],
-//                'yii\bootstrap\BootstrapPluginAsset' => [
-//                    'sourcePath' => null,
-//                    'js'         => [],
-//                ],
-//            ],
-//        ],
+        /*'assetManager' => [
+            'bundles' => [
+                'yii\bootstrap\BootstrapAsset'       => [
+                    'sourcePath' => null,
+                    'css'        => [],
+                ],
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'sourcePath' => null,
+                    'js'         => [],
+                ],
+            ],
+        ],*/
         'request' => [
             'csrfParam' => '_csrf-backend',
-//            'baseUrl' => '',
+            // 'baseUrl' => '',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
